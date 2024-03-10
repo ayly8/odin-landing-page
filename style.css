@@ -1,0 +1,39 @@
+body {
+   margin: 0;
+}
+
+.header {
+   height: 72px;
+   background: #1F2937;
+   color: #FFFFFF;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.logo {
+   color: white;
+   font-weight: bold;
+ }
+
+ ul {
+   list-style-type: none;
+   display: flex;
+   margin: 0;
+   padding: 0;
+   gap: 16px;
+ }
+ 
+ a {
+   text-decoration: none;
+   color: grey;
+ }
+
+.footer {
+   height: 72px;
+   background: #1F2937;
+   color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ } 
