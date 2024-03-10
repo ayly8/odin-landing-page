@@ -66,14 +66,14 @@ body {
    align-items: space-evenly;
    background-color: white;
    text-align: center;
-   padding: 16px;
-   margin: 16px;
  }
 
  .img-container {
    display: flex;
    justify-content: center;
    gap: 100px;
+   padding: 16px;
+   margin: 16px;
  }
  
  .item {
@@ -91,15 +91,52 @@ body {
 
  .quote {
    background-color: #E5E7EB;
+   text-align: center;
+   text-wrap: wrap;
    font-size: 36px;
    font-style: italic;
-   justify-content: center;
+   display: flex;
    align-items: center;
    margin: 0;
+   height: 300px;
  }
 
  .action {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 32px;
+ }
 
+ .blue-box {
+   background-color: #3882F6;
+   border-radius: 4px;
+   display: flex;
+   align-items: center;
+   padding: 24px;
+   gap: 50px;
+ }
+
+ .left {
+   color: white;
+   text-align: left;
+ }
+ 
+ #sign-up-btn2 {
+   background-color: white;
+   color: #3882F6;
+   width: 100px;
+   height: 30px;
+   padding: 4px;
+   border-radius: 4px;
+   border-color: #3882F6;
+ }
+
+ #sign-up-btn2:hover {
+   background-color: #3882F6;;
+   color: white;
+   border-radius: 4px;
+   border-color: white;
  }
 
 .footer {
